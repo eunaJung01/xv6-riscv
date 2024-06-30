@@ -3,7 +3,7 @@
 int
 main(int argc, char *argv[]) {
     if (argc != 2) {
-        printf("[Error] Argument required: number of ticks to sleep\n");
+        fprintf("Usage: sleep <number of ticks to sleep>\n");
         exit(-1);
     }
     int ticks_to_sleep = atoi(argv[1]);

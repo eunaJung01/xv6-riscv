@@ -71,7 +71,7 @@ find_file(const char *path) {
 int
 main(int argc, char *argv[]) {
     if (argc != 3) {
-        fprintf(2, "Two arguments required: <path> <file_name>\n");
+        fprintf(2, "Usage: find <path> <file_name>\n");
         exit(1);
     }
 
